@@ -4,12 +4,11 @@ ini_set('display_errors', 1);
 
 define('APPLICATION_ROOT', realpath('../'));
 
-include '../../external/slim/Slim/Slim.php';
-
-include '../../lean/init.php';
-
+include '../external/lean/lean/init.php';
 
 $autoload = new \lean\Autoload();
+$autoload->loadLean();
+$autoload->loadSlim();
 $autoload->register('demo', APPLICATION_ROOT . '/lib');
 
 $env = $_SERVER['SERVER_NAME'] == 'lean.kamundo.de' ? 'production' : 'development';

@@ -1,0 +1,3 @@
+[submodule "external/lean"]
+	path = external/lean
+	url = https://github.com/klawd-prime/lean.git
