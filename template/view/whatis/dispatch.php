@@ -3,23 +3,28 @@
 <ul>
     <li>lean is a micro lib written in PHP5.3.</li>
     <li>lean has everything you need to build a full fledged website, not more.</li>
-    <li>lean has an application class, utilizing <a href="http://slimframework.com">Slim's</a> Routing and dispatching.</li>
+    <li>lean is more of a library or toolkit than a framework.</li>
+    <li>lean has an application class, utilizing <a href="http://slimframework.com">Slim</a>'s routing and dispatching.
+    </li>
     <li>It's lightweight, it's fun, it's lean!</li>
 </ul>
 <h3>In depth</h3>
 <p>
-lean is a small and lightweight library in PHP 5.3 and should be included in every project! It gives you easy and small components for templating, I18N, etc. along with some powerful utility classes such as <em>lean\Dump</em> 
+    lean is a small and lightweight library in PHP 5.3 and should be included in every project! It gives you easy and
+    small components for templating, I18N, etc. along with some powerful utility classes such as <em>lean\Dump</em> and
+    <em>lean\Text</em>.
 </p>
 <p>
-    On top of that, it brings /:controller/:action functionality to the  <a href="http://slimframework.com">Slim</a> micro framework, complete with layout and partials!
+    On top of that, it brings /:controller/:action functionality to the <a href="http://slimframework.com">Slim</a>
+    micro framework, complete with layout and partials!
 </p>
 <p>
-    What we mean by "lean gives you freedom" is that it does not force you to do stuff a certain way and it does not push a monolithic, overpowered, overengineered and ultimately deadweight library on you.
-    It is clear in what the components do and it does them on a barebone level. If you need something additional, go write it! We feel that this is a better approach than the huge pseudo-Java frameworks out there and if you must needs use them, at least have lean by your side to shed some light.<br/>
-    lean is the hero PHP needs, but not the one it deserves right now.
+    What we mean by "lean gives you freedom" is that it does not put a frame around your code that limits your
+    possibilities and forces you to do things in a certain way. We believe in the power of the programmer
+    and in their abilities to come up with good solutions for their problems, equipped with our library.
 </p>
 <p>
-    So! Enough with the chitchat, here's a feature complete feature list!
+    lean is a good foundation to build upon but enough with the chitchat, here's a feature complete feature list!
 </p>
 
 <table>
@@ -38,11 +43,7 @@ lean is a small and lightweight library in PHP 5.3 and should be included in eve
                 <li>Text manipulation</li>
                 <li>Powerful data dump class</li>
                 <li>Migration management</li>
-            </ul>
-            <h4>Planned features</h4>
-            <ul class="features">
                 <li>Full fledged I18N</li>
-                <li>Scaffolding</li>
             </ul>
         </td>
         <td id="woman">

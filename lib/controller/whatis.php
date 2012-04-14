@@ -6,7 +6,4 @@ class Whatis extends HTML {
         $this->getDocument()->addLESSheet('/less/whatis.less');
         $this->display();
     }
-
-    public function fooAction() {
-    }
 }

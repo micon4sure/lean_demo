@@ -8,12 +8,11 @@
 </p>
 <? $code = <<<ENDCODE
 <?php
-// fire up the autoloader and register your lib
-\$autoload = new \lean\Autoload();
+// register your lib with the autoloader
 \$autoload->register('demo', APPLICATION_ROOT . '/lib');
 
 // instantiate the application
-\$application = new \lean\Application(array('debug' => true));
+\$application = new \lean\Application(\$environment);
 
 // register a route
 \$application->registerRoute('demo', '/demo/:id', array('controller' => '\lean\demo\Awesome', action => 'sweet'));
@@ -25,5 +24,10 @@ ENDCODE;
 highlight_string($code); ?>
 
 <p>
-    Accessing <em>/demo/23</em> will now call the <em>sweetAction</em> in <em>\lean\demo\Awesome</em> with the id parameter set to 23!
+    Accessing <em>/demo/23</em> will now call the <em>sweetAction</em> in <em>\lean\demo\Awesome</em> with the id
+    parameter set to 23!
+</p>
+<p>
+    There's much more to be done with routing. You could just as well just use Slim's routing directly and just use lean
+    as an accompanying library. It's up to you, that's the power of lean!
 </p>
