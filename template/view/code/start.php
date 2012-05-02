@@ -28,6 +28,6 @@ highlight_string($code); ?>
     parameter set to 23!
 </p>
 <p>
-    There's much more to be done with routing. You could just as well just use Slim's routing directly and just use lean
+    There's much more to be done with routing. You could just as well use Slim's routing directly and use lean
     as an accompanying library. It's up to you, that's the power of lean!
 </p>

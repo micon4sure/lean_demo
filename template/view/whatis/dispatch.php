@@ -46,14 +46,5 @@
                 <li>Full fledged I18N</li>
             </ul>
         </td>
-        <td id="woman">
-            <img src="/images/angry-woman.jpg" alt="angry woman"/>
-
-            <p>
-                This woman had to deal with monolithic frameworks!<br/>
-                She should've used lean instead and saved herself a good deal of trouble!
-            </p>
-
-        </td>
     </tr>
 </table>

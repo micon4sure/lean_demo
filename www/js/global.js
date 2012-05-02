@@ -2,24 +2,16 @@ $(function() {
     var Praise = function() {
         this.data = [
             {
-                cite: 'Sergey Brin',
-                quote: '"lean is so awesome, wish I had known about it earlier!"'
+                quote: 'fast!',
+                cite: 'lean is'
             },
             {
-                cite: 'Bill Gates',
-                quote: '"I love lean\'s simplicity, very well done!"'
+                quote: 'lean is',
+                cite: 'fresh!'
             },
             {
-                cite: 'Ron Paul',
-                quote: '"lean helps me bring peace to our planet!"'
-            },
-            {
-                cite: 'Heidi Klum',
-                quote: '"I wish I could have children with lean!"'
-            },
-            {
-                cite: 'Chuck Norris',
-                quote: '"lean is the only one who ever beat me - and I liked it!"'
+                quote: 'lean is',
+                cite: 'cutting edge!'
             }
         ];
         this.current = 0;
@@ -40,8 +32,8 @@ $(function() {
      * @param citation
      */
     Praise.prototype.setCitationContent = function(citation) {
-        $('#praise blockquote cite').text('- ' + citation.cite);
-        $('#praise blockquote p').text(citation.quote);
+        $('#praise blockquote cite').text(citation.cite);
+        $('#praise blockquote p').text(citation.quote + ' -');
     }
 
     /**
@@ -70,7 +62,7 @@ $(function() {
 
     var praise = new Praise();
     praise.setCitationContent(praise.getRandomCitation());
-    setTimeout(function() { praise.next(); }, 30000)
+    setTimeout(function() { praise.next(); }, 10000)
     window.praise = praise;
 
     // smooth scroll to the top

@@ -67,7 +67,7 @@ highlight_string($code); ?>
 
 <? // DEEP ?>
 <? $code = <<<ENDCODE
-<? \lean\Dump::deep(2, \$sample); // three levels ?>
+<? \lean\Dump::deep(3, \$sample); // three levels ?>
 ENDCODE;
 highlight_string($code); ?>
 <? \lean\Dump::deep(3, $sample); // three levels ?>

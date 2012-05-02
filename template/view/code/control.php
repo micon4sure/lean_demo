@@ -41,7 +41,7 @@ highlight_string($code); ?>
 <?php
 public function barAction() {
     // template variables go in data
-    \$this->data->characters = array('Tyrion', 'Robb');
+    \$this->data->characters = array('Robb', 'Jeyne');
     \$this->display();
 }
 
