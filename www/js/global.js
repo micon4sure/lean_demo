@@ -2,8 +2,8 @@ $(function() {
     var Praise = function() {
         this.data = [
             {
-                quote: 'fast!',
-                cite: 'lean is'
+                quote: 'lean is',
+                cite: 'fast!'
             },
             {
                 quote: 'lean is',
@@ -14,15 +14,15 @@ $(function() {
                 cite: 'cutting edge!'
             }
         ];
-        this.current = 0;
+        this.current = undefined;
     }
     /**
      * Get random entry from praise citations
      */
     Praise.prototype.getRandomCitation = function() {
         do {
-            var key = Math.round((Math.random()*this.data.length));
-        } while(key == this.current || this.data[key] === undefined);
+            var key = Math.floor((Math.random()*this.data.length));
+        } while(key == this.current || this.current === undefined || this.data[key] === undefined);
         this.current = key;
         return this.data[key];
     }
