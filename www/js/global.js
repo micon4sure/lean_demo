@@ -22,7 +22,7 @@ $(function() {
     Praise.prototype.getRandomCitation = function() {
         do {
             var key = Math.floor((Math.random()*this.data.length));
-        } while(key == this.current || this.current === undefined || this.data[key] === undefined);
+        } while(key == this.current || key === undefined || this.data[key] === undefined);
         this.current = key;
         return this.data[key];
     }
