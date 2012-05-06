@@ -32,22 +32,5 @@
     </div>
 </div>
 <footer>
-    <table>
-        <tr>
-            <td id="gravatar">
-                <img src="http://gravatar.com/avatar/<?= md5('klawd+git@kamundo.de') ?>?s=150" alt="klawd-prime gravatar"/>
-            </td>
-            <td>
-                <p>This is me. <em>Michael Saller</em> aka <em>klawd prime</em>. The initial creator of lean.<br/>
-                    <small>(It's not actually me though, right? It's just a picture of me pumped into my gravatar.)</small></p>
-                <p>
-                    Visit me on <a href="http://github.com/klawd-prime">github</a> or <a href="http://github.com/klawd-prime/lean">pass GO and collect your 200$!</a>
-                </p>
-                <p>
-                    I also have a <a href="https://twitter.com/#!/klawd">twitter feed</a> I don't really post to! (If I do, it's usually german but you can always hit me up in english.)
-                </p>
-            </td>
-        </tr>
-    </table>
     <span id="back_to_top"> <span class="triforce">▲</span> back to the top you go!</span>
 </footer>
