@@ -1,0 +1,21 @@
+{
+    "name": "lean/lean_demo",
+    "type": "library",
+    "description": "Demo site for the lean framework",
+    "keywords": ["project"],
+    "homepage": "http://github.com/klawd-prime/lean_demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Saller",
+            "email": "klawd+lean@kamundo.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "lean/lean": "master"
+    },
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
